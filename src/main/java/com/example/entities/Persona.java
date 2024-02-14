@@ -38,7 +38,6 @@ public class Persona implements Serializable {
 
     // Datos Laborales
     private double salario;
-    private LocalDate fechaNacimiento;
     private LocalDateTime horaYDateTime;
 
 }
