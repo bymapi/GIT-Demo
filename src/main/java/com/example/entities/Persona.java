@@ -1,6 +1,7 @@
 package com.example.entities;
 
 import java.io.Serializable;
+import java.time.LocalDate;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -30,6 +31,7 @@ public class Persona implements Serializable {
     private String nombre;
     private String primerApellido;
     private String segundoApellido;
+    private LocalDate fechaDeNacimiento;
 
 
     // Datos Laborales
